@@ -37,11 +37,12 @@
     font-family: 'Monoton';
 }
 .card-header img{
-    width: 200px;
+    max-width: 200px;
     border-radius: 50%;
     border: 2px solid #000;
-    outline: 4px solid #fff;
+    /* outline: 4px solid #fff; */
     margin: 5px 10px;
+    filter: drop-shadow(2px 4px 6px hsl(0, 0%, 53%));
 }
 .card-content{
     display: flex;
