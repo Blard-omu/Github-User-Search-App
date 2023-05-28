@@ -3,10 +3,10 @@ import React from 'react'
 const Loader = () => {
   return (
     <div className=''>
-        <div class="spinner-border text-light" role="status">
+        <div class="spinner-border" role="status">
             <span class="visually-hidden">Loading...</span>
         </div>
-        <p className='text-light'>Loading...</p>
+        <p className=''>Loading...</p>
     </div>
   )
 }
