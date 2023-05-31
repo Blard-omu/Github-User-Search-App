@@ -25,7 +25,7 @@ const App = () => {
         {/* <Footer/> */}
         </BrowserRouter>
         <div className="text-center p-3 bg-light shadow mt-3">
-        <button className='btn btn-dark ' onClick={toggleTheme}>Change Theme</button>
+        <button className='btn btn-dark theme ' onClick={toggleTheme}>Change Theme</button>
         </div>
         </div>
     </div>
