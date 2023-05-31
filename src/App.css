@@ -73,3 +73,13 @@ p{
         margin-left: 0;
     }
 }
+
+/* context css */
+.App.light{
+  background-color: #fff;
+  color: #000;
+}
+.App.dark{
+  background-color: #000;
+  color: #fff;
+}
