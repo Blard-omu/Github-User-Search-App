@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import Loader from "../components/Loader";
 import github from "../icons8-github-48.png";
+import Header from "../components/Header";
 
 const FetchData = () => {
   const [data, setData] = useState(null);
@@ -55,9 +56,9 @@ const FetchData = () => {
   };
 
   return (
+    <div className="">
+      <Header title="Github Search App" desc="You can use this app search for any user on github"/>
     <div className="main shadow col-12 col-md-6 offset-md-3">
-      {/* search input */}
-
       <form className="my-4" onSubmit={handleSubmit}>
         <input
           className="form-control p-3"
@@ -101,6 +102,7 @@ const FetchData = () => {
           </div>
         </div>
       ) : null}
+    </div>
     </div>
   );
 };

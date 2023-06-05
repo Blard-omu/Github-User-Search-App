@@ -1,8 +1,12 @@
 import React from 'react'
 
-const About = () => {
+const About = (props) => {
+  const { heading, subheading="This is default subheading" } = props
   return (
-    <div>This is about page</div>
+    <div>
+      <h1>{heading}</h1>
+      <h3>{subheading}</h3>
+    </div>
   )
 }
 

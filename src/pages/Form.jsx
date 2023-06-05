@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const Form = () => {
     // initial state
     const [firstName, setFirstName] = useState('');
+
     const handleChange = (event) => {
         // console.log(event.target.value);
         const value = event.target.value
@@ -12,7 +13,7 @@ const Form = () => {
 
   return (
     <div className="col-md-6 offset-md-3">
-      <label className="">First Name: </label> <br />
+      {/* <label className="">First Name: </label> <br /> */}
       <input
       className="form-control "
         type="text"
