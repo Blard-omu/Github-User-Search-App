@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Header = (props) => {
-const { title = "Welcome to Techstudio", desc = "You can become a tech pro in just one week"} = props
+const { title = "Welcome to Techstudio", desc = "You can become a tech pro"} = props
   return (
     <>
         <div className="container bg-light m-4 p-3 col-md-6 offset-md-3 shadow-lg text-center">
