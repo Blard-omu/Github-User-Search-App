@@ -23,6 +23,6 @@
 - useState, useEffect, useContext, useRef, useMemo, useReducer, etc
 - Events in react, onClick, onSubmit, onMouseEnter, onMouseLeave, onMouseOver.
 - Conditional rendering using ternary operator and coalescence operator
-- React Router DOM, Link, routing, useNavigate and private rounting
+- React Router DOM, Link, routing, useNavigate and private routing
 - Project 
 - Final project
