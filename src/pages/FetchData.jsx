@@ -57,7 +57,9 @@ const FetchData = () => {
 
   return (
     <div className="">
-      <Header title="Github Search App" desc="You can use this app to search for any user on github"/>
+      <div className="text-center">
+        <Header title="Github Search App" desc="You can use this app to search for any user on github"/>
+      </div>
     <div className="main shadow col-12 col-md-6 offset-md-3">
       <form className="my-4" onSubmit={handleSubmit}>
         <input
