@@ -57,7 +57,7 @@ const FetchData = () => {
 
   return (
     <div className="">
-      <div className="text-center mx-auto">
+      <div className="d-flex justify-content-center align-items-center">
         <Header title="Github Search App" desc="You can use this app to search for any user on github"/>
       </div>
     <div className="main shadow col-12 col-md-6 offset-md-3">
